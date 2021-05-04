@@ -4,11 +4,10 @@ As a global society, we are waking up to the fact that happiness in our daily li
 Corporations, governments, and organisations are becoming increasingly aware of the importance of happiness. It could be noted that when minimum satisfaction standards are reached people are better able to contribute to their day to day lives and respective duties, and that it is also in their best interests to contribute to people's well-being. As a result, satisfaction metrics are constantly being used in policy decisions all around the globe.
 The World Happiness Report is a publication of the Sustainable Development Solutions Network, powered by data from the Gallup World Poll and Lloyd’s Register Foundation, who provided access to the World Risk Poll.
 The purpose of this project is to dive in and analyse the happiness score per country around the world and the main characteristics of what forms “Happiness”.
-```
 
 
 # Project structure
-```
+
 project 
 |__ .gitignore          # gitignore file
 |       
@@ -34,18 +33,17 @@ project
 |__ project/
 |   |__World Happiness Report.pptx     # project presentation
 
-```
 
 # Usage
 
-Create an environment from YAML file and activate environment 
-```
-# install geopandas
+## Activate environment
+source activate PythonData
+
+## install geopandas
 pip install geopandas
 
-# install seaborn
+## install seaborn
 pip install seaborn
-```
 
 
 # Questions 
@@ -95,6 +93,7 @@ There are 6 variables that the happiness score is calculated from. Government Tr
 Australia sits above the avegarge mean for the 6 variables that are used to calculate the happiness score.  
 
 # Contributors
+
 - [@Bec](https://github.com/Bec-Gould)
 - [@Alysha](https://github.com/alysnow)
 - [@Ernest](https://github.com/KenyanBoy)
