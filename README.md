@@ -7,7 +7,7 @@ The purpose of this project is to dive in and analyse the happiness score per co
 
 
 
-# Project structure
+## Project structure
 ```
 project  
 |__ Images/                                 # contains output graphs from jupyter notebook  
@@ -27,8 +27,14 @@ project
 |  
 |__World Happiness Report Presention.pptx   # project presentation  
 ```
+## Datasets 
 
-# Install Modules and Libraries
+|Source|Link|
+|-|-|
+|Kaggle World Happiness Report|https://www.kaggle.com/unsdsn/world-happiness|
+
+
+## Install Modules and Libraries
 ```
 pip install geopandas   
 pip install seaborn
@@ -41,22 +47,18 @@ import scipy.stats as st
 import seaborn as sns
 import geopandas as gpd
 ```
+## Hypothesis
+- H0: Happiness has no relationship with Economy (GDP per capita)
 
-# Questions 
+
+## Questions 
 
 1. Where are the ten Happiest Countries in the world?
 2. Why are they the Happiest Countries? 
-3. Where does Australia rank in the world? 
+3. How does Australia compare to other countries?
 
 
-# Datasets 
-
-|Source|Link|
-|-|-|
-|Kaggle Open Source Datasets|https://www.kaggle.com/datasets|
-
-
-# Analysis
+## Analysis
 
 ### Question 1: Where are the ten Happiest Countries in the world? 
 
@@ -83,11 +85,27 @@ The top 10 happiest countries on average from 2015 to 2019 are:
 - There are 6 variables that the happiness score is calculated from. Government Trust, Generosity, Health, Family, Economy (GDP per Capita) and Freedom. 
 - We found the happiest countries had high scores in Health, Family and Economy. 
 
-### Question 3: Where does Australia rank in the world? 
+### Question 3: How does Australia compare to other countries?
 
 ![chart](Images/australia_characteristics.png)
 
 - Australia sits above the avegarge mean for the 6 variables that are used to calculate the happiness score.  
+
+
+### Hypothesis: Does Economy (GDP Per Capita) correlate with happiness score? 
+![image](https://user-images.githubusercontent.com/79504423/118608923-d34aed80-b7ec-11eb-9761-a98b31a2f2b7.png)
+
+- Analysis shows p-value = 6.992878703186441e-35 < 5%
+- We reject null hypothesis and accept alternate hypothesis
+  - H1: Happiness does have a relationship with Economy (GDP per Capita)
+
+
+### Possible Outcomes
+- Governments can cater policies around ensuring:
+  - good economic output
+  - providing social support for people
+  - investing in health sectors
+- This is to ensure a country stays happy (could aid in maintaining government leadership)
 
 # Contributors
 - [@Alvin](https://github.com/Alvin1359)
