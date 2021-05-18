@@ -95,6 +95,7 @@ The top 10 happiest countries on average from 2015 to 2019 are:
 ### Hypothesis: Does Economy (GDP Per Capita) correlate with happiness score? 
 ![image](https://user-images.githubusercontent.com/79504423/118608923-d34aed80-b7ec-11eb-9761-a98b31a2f2b7.png)
 
+- Analysis shows r-value = 0.6683439315322106, indicating there is a positive relationship between economy and happiness score
 - Analysis shows p-value = 6.992878703186441e-35 < 5%
 - We reject null hypothesis and accept alternate hypothesis
   - H1: Happiness does have a relationship with Economy (GDP per Capita)
